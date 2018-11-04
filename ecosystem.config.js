@@ -19,7 +19,7 @@ module.exports = {
 
   deploy: {
     production: {
-      key: '~/.ssh/id_rsa_ukoo_key',
+      key: '~/.ssh/id_rsa_ukoo_key.pub',
       user: 'ukoo',
       host: 'ukoo.patkayongo.africa',
       ssh_options: 'StrictHostKeyChecking=no',
