@@ -22,6 +22,7 @@ module.exports = {
       key: '~/.ssh/id_rsa_ukoo_key',
       user: 'ukoo',
       host: 'ukoo.patkayongo.africa',
+      ssh_options: 'StrictHostKeyChecking=no',
       ref: 'origin/master',
       repo: 'https://github.com/PatKayongo/ukoo.git',
       path: '/home/ukoo/ukoo',
