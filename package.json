@@ -4,8 +4,9 @@
   "description": "Ukoo Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start-web-server": "nodemon src/infrastructure/web/index.js"
+    "lint": "./node_modules/.bin/eslint src/**",
+    "start-web-server": "nodemon src/infrastructure/web/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
